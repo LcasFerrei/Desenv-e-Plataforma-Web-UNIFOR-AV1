@@ -1,0 +1,175 @@
+html{
+    background: linear-gradient(rgb(98, 98, 204), black)
+}
+
+.footer-content{
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(98, 98, 204);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.botoes {
+    text-align: center; /* Centraliza os botões horizontalmente */
+    margin-top: 20px; /* Adiciona margem acima dos botões */
+    margin-bottom: 20px; /* Adiciona margem abaixo dos botões */
+}
+
+
+.footer-content {
+    color: white;
+    text-align: center;
+}
+
+/* Links do rodapé */
+footer a {
+    color: rgb(98, 98, 204);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white; /* Muda a cor do texto quando o mouse passa por cima */
+}
+
+/* Botões */
+button {
+    text-align: center; /* Centraliza o texto dentro do botão */
+    background-color: rgb(98, 98, 204); /* Cor de fundo */
+    color: black; /* Cor do texto */
+    border: none; /* Remove a borda */
+    padding: 10px 20px; /* Adiciona espaço interno */
+    cursor: pointer; /* Muda o cursor ao passar por cima */
+    transition: background-color 0.3s; /* Efeito de transição para a cor de fundo */
+}
+
+button:hover {
+    background-color: white; /* Muda a cor de fundo ao passar o mouse */
+    color: black; /* Muda a cor do texto */
+}
+
+/* BARRINHA */
+
+.li{
+    text-align: center;
+}
+
+.barrinha{
+    text-align: center;
+    color: rgb(98, 98, 204);
+}
+
+
+/* teste rodape */
+
+
+header {
+    position: fixed; /* Torna o header fixo */
+    width: 80%; /* Define a largura como 100% */
+    top: 0; /* Mantém o header fixo no topo */
+    z-index: 1000; /* Define a ordem de empilhamento */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 8%; /* Ajusta o preenchimento */
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(98, 98, 204); /* Adiciona cor de fundo */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+}
+
+.inicial{
+    display: flexbox;
+    align-items: center;
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.inicial i{
+    color: black;
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.inicial:hover,
+.inicial:hover i {
+    color: white;
+}
+
+
+
+.navegação{
+    display: flex;
+}
+
+.navegação a{
+    color: black;
+    font-size: smaller;
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.navegação a:hover{
+    color: white;
+}
+
+#menu{
+    font-size: 35px;
+    color: black;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+    color: black;
+}
+
+.header-icons i:hover{
+    transform: translateY(-5px);
+    color: white
+}
+
+body {
+    padding-top: 100px; /* Ajusta o padding superior do body para compensar o espaço ocupado pelo header */
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 80px; /* Adiciona margem superior ao título */
+}
+
+footer p {
+    color: white; /* Define a cor do texto como branco */
+    transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+    text-align: center;
+}
+
+footer p:hover {
+    color: rgb(98, 98, 204); /* Muda a cor do texto para roxo ao passar o mouse */
+}
+
+.footer-divider {
+    width: 1px; /* Largura do quadrado */
+    height: 100px; /* Altura do quadrado */
+    background-color: white; /* Cor branca */
+    margin: 0 20px; /* Margem para separação dos elementos */
+}
+
+.bx {
+    color: rgb(98, 98, 204); /* Define a cor roxa para todos os ícones */
+}
