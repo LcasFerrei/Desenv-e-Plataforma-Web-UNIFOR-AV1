@@ -1,0 +1,2 @@
+1 - Lembre-se de dar o git pull quando for iniciar uma jornada de trabalho. Agora estamos trabalhando juntos.
+2 - Estou fazendo uma branch nova onde irei trabalhar em cima dela, quando sentir que minhas atualizações estão funcionais, dou um merge na branch main. Isso evita que precisemos voltar para um ponto muito longe de desenvolvimento e refatorar código.
