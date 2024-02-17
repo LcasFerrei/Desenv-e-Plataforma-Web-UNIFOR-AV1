@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"NOME TITULO PARA ALTERAR"</title>
+    <title>"XaropeGenius"</title>
     <link rel="stylesheet" href="Inscricao.css">
     <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <!-- or -->
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
 
     <header>
-        <a href="#" class="inicial"><i class='bx bxs-videos'></i>Nome plataforma</a>
+        <a href="index.html" class="inicial"><i class='bx bxs-videos'></i>XaropeGenius</a>
 
         <ul class="navegação">
-            <li><a href="#">Visão geral</a></li>
-            <li><a href="#">inscreva-se</a></li>
-            <li><a href="#">Reviews</a></li>
-            <li><a href="#">Professores</a></li>
+            <a href="#">Visão geral</a>
+            <a href="Inscricao.html">inscreva-se</a>
+            <a href="#">Reviews</a>
+            <a href="Professores.html">Professores</a>
         </ul><!--navegação-->
 
         <div class="header-icons">
-            <i class='bx bx-cart bx-sm'></i> <!-- Adicionado bx-sm para ajustar o tamanho do ícone se necessário -->
+            <i class='bx bx-user bx-sm'></i> <!-- Adicionado bx-sm para ajustar o tamanho do ícone se necessário -->
             <div id="menu"><i class='bx bx-menu bx-sm'></i></div>
         </div><!--header-icons-->
         
@@ -34,23 +36,32 @@
 
 
     <h6>Área de Cadastro</h6>
-  <form action="paginas\login.html" method="get">
-    <label for="nome">Nome Completo</label>
-    <input type="text" name="nome" id="nome">
 
-    <label for="nome">Email</label>
-    <input type="text" name="nome" id="nome">
+    <form action="paginas\login.html" method="get" onsubmit="return confirm('Após Confirmação, troca de senha apenas entrando em contato com o suporte, deseja realmente confirma essa solicitação?')">
+        <label for="nome">Nome Completo</label>
+        <input type="text" name="nome" id="nome">
 
-    <label for="telefone">Telefone</label>
-    <input type="text" name="telefone" id="number">
+        <label for="nome">Email</label>
+        <input type="text" name="nome" id="nome">
 
-    <label for="telefone">Criar Senha</label>
-    <input type="text" name="nome" id="nome">
+        <label for="telefone">Telefone</label>
+        <input type="text" name="telefone" id="number">
 
-    <button name="botao" class="botao">
-        Fazer Cadastro
-      </button>
+        <label for="telefone">Criar Senha</label>
+        <input type="text" name="nome" id="nome">
+
+        <button name="botao" class="botao">
+            Fazer Cadastro
+        </button>
+    </form> 
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
     
+    <div class="botoes">
+        <button type="button" onclick="irParaIndex()">Home</button>
+        <button type="button" onclick="irParaPerguntas()">Perguntas Frequentes</button>
+    </div>]
+
     <footer>
         <div class="footer-content">
             <div class="footer-logo">

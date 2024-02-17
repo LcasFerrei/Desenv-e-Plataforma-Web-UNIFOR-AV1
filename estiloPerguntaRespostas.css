@@ -1,7 +1,10 @@
+
+
 .faq {
     text-align: center;
     margin-bottom: 20px;
     color: aliceblue;
+    
 }
 
 .duvida-pergunta-texto {
@@ -17,6 +20,7 @@
     display: none;
     color: white;
     transition: color 0.3s; /* Adiciona uma transição suave de 0.3 segundos para a mudança de cor */
+
 }
 
 .duvida-resposta:hover {
@@ -27,6 +31,7 @@
 .ativo {
     display: block;
     color: whitesmoke;
+    transition: 1s
 }
 
 html{
@@ -198,3 +203,107 @@ footer p:hover {
     color: rgb(98, 98, 204); /* Define a cor roxa para todos os ícones */
 }
 
+/* teste teste teste */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .accordion-container {
+    margin: 0 auto;
+    min-width: 330px;
+    overflow: hidden;
+  }
+  
+  .main-item {
+    border-radius: 8px;
+    padding: 12px;
+    display: flex;
+    cursor: pointer;
+    background: white;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    transition: all ease-in-out 1s;
+  }
+  
+  .main-item:hover {
+    background-color: rgb(98, 98, 204);
+    color: black;
+  }
+  
+  .main-item svg {
+    color: rgb(98, 98, 204);
+    transition: all ease-in-out 1s;
+  }
+  
+  .main-item:hover svg {
+    color: rgb(98, 98, 204);
+  }
+  
+  .main-item--open {
+    border-radius: 8px 8px 0px 0px;
+    background-color:black;
+    transition: all 1s;
+    color: white;
+  }
+  
+  .main-item--open:hover {
+    color: white;
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgb(98, 98, 204);
+  }
+  
+  .main-item--open svg {
+    color: white;
+  }
+  
+  .main-item--open:hover svg {
+    color: white;
+  }
+  
+  .accordion-container > ul {
+    max-height: 0px;
+    background-color: black;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 14px;
+    opacity: 0;
+    background-color: rgb(98, 98, 204);
+    visibility: hidden;
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .main-item--open + ul {
+    visibility: visible;
+    max-height: 400px;
+    opacity: 1;
+    border-radius: 0px 0px 8px 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .accordion-container > ul > li {
+    height: 48px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .accordion-container > ul > li:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  .expand-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: auto;
+  }
+  
+  .main-item--open > .expand-icon {
+    transform: rotate(90deg);
+  }
+  
