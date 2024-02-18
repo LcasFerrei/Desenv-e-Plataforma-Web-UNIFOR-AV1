@@ -179,20 +179,22 @@ h1 {
     color: white;
     text-align: center;
     margin-top: 80px; /* Adiciona margem superior ao título */
-    /*font-family: 'Chilanka', cursive;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'Protest Guerrilla', sans-serif;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Chilanka', cursive;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Protest Guerrilla', sans-serif;*/
-    font-family: 'Protest Guerrilla', sans-serif;
-
+    /* Adiciona uma transição suave para a mudança de cor */
+    transition: color 0.3s ease;
 }
+
+h1:hover {
+    color: black; /* Altera a cor para preto ao passar o mouse */
+}
+
+.sub {
+    font-size: 25px; /* Tamanho da fonte */
+    color: white;
+    text-align: center; /* Alinhamento do texto */
+    margin-top: 20px; /* Margem superior */
+}
+
 
 footer p {
     color: white; /* Define a cor do texto como branco */
@@ -211,8 +213,8 @@ footer p:hover {
     margin: 0 20px; /* Margem para separação dos elementos */
 }
 
-.bx {
-    color: rgb(98, 98, 204); /* Define a cor roxa para todos os ícones */
+.footer-logo i:hover{
+    color: white;
 }
 
 .topicbeneficios {
@@ -315,6 +317,7 @@ footer p:hover {
 .subtitulo p{
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 
 
