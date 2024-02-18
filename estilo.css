@@ -1,0 +1,28 @@
+section {
+    display: block;
+}
+
+.title-review {
+    text-align: center;
+    font-size: 6rem;
+    margin-bottom: -6rem;
+    margin-top: -7rem;
+}
+
+.box-comment-review {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 8rem;
+}
+
+.comment-review {
+    width: 30rem;
+    height: 10rem;
+    display: flex;
+    object-fit: cover;
+    background-color: rgb(206, 5, 206);
+    gap: 0.5rem;
+    margin-left: 0.5rem;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XaropeGenius</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Chilanka&family=Indie+Flower&family=Lato:wght@700&family=Open+Sans:wght@300;400;500&family=Pacifico&family=Protest+Guerrilla&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="inicial"><i class='bx bxs-videos'></i>XaropeGenius</a>
+
+        <ul class="navegação">
+            <a href="#">Visão geral</a>
+            <a href="Inscricao.html">Inscreva-se</a>
+            <a href="./review.html">Reviews</a>
+            <a href="Professores.html">Professores</a>
+        </ul><!--navegação-->
+
+        <div class="header-icons">
+            <i class='bx bx-user bx-sm'></i> <!-- Adicionado bx-sm para ajustar o tamanho do ícone se necessário -->
+            <div id="menu"><i class='bx bx-menu bx-sm'></i></div>
+        </div><!--header-icons-->
+    </header>
+    
+    <main>
+        <section>
+            <div class="title-review">
+                <h2>Reviews</h2>
+            </div>
+            <div class="box-comment-review">
+                <div class="comment-review">
+                    <img src="./img/sheng-ling.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Sheng Ling</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+                <div class="comment-review">
+                    <img src="./img/hugo-cosco.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Hugo Cosco</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+                <div class="comment-review">
+                    <img src="./img/Riccardo-Rubens.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Riccardo Rubens</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+                <div class="comment-review">
+                    <img src="./img/Iran-Hamir.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Iran Hamir</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+                <div class="comment-review">
+                    <img src="./img/sheng-ling.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Sheng Ling</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+                <div class="comment-review">
+                    <img src="./img/sheng-ling.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Sheng Ling</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+                <div class="comment-review">
+                    <img src="./img/sheng-ling.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Sheng Ling</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+                <div class="comment-review">
+                    <img src="./img/sheng-ling.jpg" />
+                    <div class="text-comment-review">
+                        <h4>Sheng Ling</h4>
+                        <p>I love this page! I'm learning web development and this page help me a lot of with some of my doubts, like the origin of html! xoxo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+               <a href="index.html" class="logo"><i class='bx bxs-videos'></i>XaropeGenius</a>
+            </div>
+            <div class="footer-info">
+                <p>Endereço: Rua do Html com CSS, 123</p>
+                <p>Contato: +55 85 9481515418</p>
+                <p>Suporte: suporte@SoundBox.com</p>
+            </div>
+        </div>
+        <p>&copy; 2024 LcasDev. Todos os direitos reservados.</p>
+    </footer>
+    
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var slick = $('.barrinha').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                prevArrow: '<button type="button" class="slick-prev"><i class="bx bx-chevron-left"></i></button>',
+                nextArrow: '<button type="button" class="slick-next"><i class="bx bx-chevron-right"></i></button>',
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+    
+            // Adiciona manipulador de eventos para pausar o carrossel ao clicar em um dos itens <ol>
+            $('.sub-items').click(function() {
+                slick.slick('slickPause'); // Pausa o carrossel
+            });
+    
+            // Adiciona manipulador de eventos para retomar a reprodução automática quando clicar em um dos itens <ol>
+            $('.sub-items').on('mouseleave', function() {
+                slick.slick('slickPlay'); // Retoma a reprodução automática do carrossel
+            });
+        });
+    </script>
+
+<script>
+    $(document).ready(function(){
+        $('.topicbeneficios').slick({
+            slidesToShow: 3, // Número de slides visíveis ao mesmo tempo
+            slidesToScroll: 1, // Número de slides a serem percorridos por clique
+            autoplay: true, // Reprodução automática
+            autoplaySpeed: 2000, // Velocidade da reprodução automática em milissegundos
+            prevArrow: '<button type="button" class="slick-prev"><i class="bx bx-chevron-left"></i></button>',
+            nextArrow: '<button type="button" class="slick-next"><i class="bx bx-chevron-right"></i></button>',
+            centerMode: true, // Centraliza o slide ativo
+            centerPadding: '60', // Espaçamento entre o slide ativo e os demais
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1 // Altera o número de slides visíveis em telas menores
+                    }
+                }
+            ]
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function(){
+    $('.playervideo').slick({
+        slidesToShow: 3, // Número de slides visíveis ao mesmo tempo
+        slidesToScroll: 1, // Número de slides a serem percorridos por clique
+        autoplay: true, // Reprodução automática
+        autoplaySpeed: 2000, // Velocidade da reprodução automática em milissegundos
+        prevArrow: '<button type="button" class="slick-prev"><i class="bx bx-chevron-left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="bx bx-chevron-right"></i></button>',
+        centerMode: true, // Centraliza o slide ativo
+        centerPadding: '60', // Espaçamento entre o slide ativo e os demais
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1 // Altera o número de slides visíveis em telas menores
+                }
+            }
+        ]
+    });
+});
+
+</script>
+
+</body> 
+</html>

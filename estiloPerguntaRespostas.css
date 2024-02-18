@@ -14,12 +14,14 @@
 
 .duvida-pergunta-texto:hover {
     color: rgb(98, 98, 204);
+    font-size: 1.8rem;
 }
 
 .duvida-resposta {
     display: none;
     color: white;
     transition: color 0.3s; /* Adiciona uma transição suave de 0.3 segundos para a mudança de cor */
+    font-size: 1.2rem;
 
 }
 
@@ -83,7 +85,7 @@ footer a:hover {
 /* Botões */
 button {
     text-align: center; /* Centraliza o texto dentro do botão */
-    background-color: rgb(98, 98, 204); /* Cor de fundo */
+    background-color: rgb(253, 253, 253); /* Cor de fundo */
     color: black; /* Cor do texto */
     border: none; /* Remove a borda */
     padding: 10px 20px; /* Adiciona espaço interno */
@@ -92,7 +94,7 @@ button {
 }
 
 button:hover {
-    background-color: white; /* Muda a cor de fundo ao passar o mouse */
+    background-color: rgb(98, 98, 204); /* Muda a cor de fundo ao passar o mouse */
     color: black; /* Muda a cor do texto */
 }
 
@@ -200,7 +202,7 @@ footer p:hover {
 }
 
 .bx {
-    color: rgb(98, 98, 204); /* Define a cor roxa para todos os ícones */
+    color: black; /* Define a cor roxa para todos os ícones */
 }
 
 /* teste teste teste */

@@ -100,7 +100,7 @@ li:last-child {
 
 
 header {
-    position: fixed; /* Torna o header fixo */
+    position: fixed; /*Torna o header fixo */
     width: 80%; /* Define a largura como 100% */
     top: 0; /* Mantém o header fixo no topo */
     z-index: 1000; /* Define a ordem de empilhamento */
@@ -134,9 +134,9 @@ header {
 }
 
 
-
 .navegação{
     display: flex;
+
 }
 
 .navegação a{
@@ -318,12 +318,17 @@ footer p:hover {
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.subtitulo p{
-    color: white;
+.subtitulo {
     text-align: center;
-    font-size: 20px;
+    color: lightcyan;
+    font-size: 1.3rem;
+    margin: 1.5rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    width: 40%;
+    height: 80%;
+    margin-left: 24.5rem;
 }
-
 
 .beneficios img {
     max-width: 100%; /* Define o tamanho máximo da imagem para 100% da largura do contêiner pai */
