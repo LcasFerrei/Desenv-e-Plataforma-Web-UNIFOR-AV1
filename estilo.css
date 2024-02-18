@@ -22,7 +22,17 @@ section {
     height: 10rem;
     display: flex;
     object-fit: cover;
-    background-color: rgb(206, 5, 206);
+    background-color: white; 
     gap: 0.5rem;
     margin-left: 0.5rem;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para a mudança de cor */
+}
+
+.comment-review:hover{
+    background-color: rgb(98, 98, 204);
+    color: white;
+}
+
+h2{
+    color: white;
 }
