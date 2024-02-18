@@ -103,7 +103,7 @@ button:hover {
 
 
 header {
-    position: fixed; /* Torna o header fixo */
+    position: fixed; /*Torna o header fixo */
     width: 80%; /* Define a largura como 100% */
     top: 0; /* Mantém o header fixo no topo */
     z-index: 1000; /* Define a ordem de empilhamento */
