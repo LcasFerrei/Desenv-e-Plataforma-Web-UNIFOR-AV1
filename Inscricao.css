@@ -44,8 +44,8 @@ footer a:hover {
 button {
     text-align: center; /* Centraliza o texto dentro do botão */
     background-color: rgb(98, 98, 204); /* Cor de fundo */
-    color: black; /* Cor do texto */
-    border: none; /* Remove a borda */
+    color: white; /* Cor do texto */
+    border-radius: 10px; /* Remove a borda */
     padding: 10px 20px; /* Adiciona espaço interno */
     cursor: pointer; /* Muda o cursor ao passar por cima */
     transition: background-color 0.3s; /* Efeito de transição para a cor de fundo */
@@ -172,4 +172,47 @@ footer p:hover {
 
 .bx {
     color: rgb(98, 98, 204); /* Define a cor roxa para todos os ícones */
+}
+
+h6 {
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    font-size: 25px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+
+/* Forms */
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+label {
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    transition: color 0.3s; /* Transição suave da cor ao passar o mouse */
+}
+
+label:hover {
+    color: rgb(98, 98, 204); /* Cor ao passar o mouse */
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #ffffff; /* Cor ao passar o mouse */
+}
+
+p{
+    color: white;
+    text-align: center;
 }
