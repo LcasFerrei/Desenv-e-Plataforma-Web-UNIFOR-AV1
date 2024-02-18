@@ -189,7 +189,11 @@ h1:hover {
 }
 
 .sub {
+<<<<<<< HEAD
     font-size: 25px; /* Tamanho da fonte */
+=======
+    font-size: 18px; /* Tamanho da fonte */
+>>>>>>> 6edc749c976d6b044f83416042c84e8cad6b95e4
     color: white;
     text-align: center; /* Alinhamento do texto */
     margin-top: 20px; /* Margem superior */
