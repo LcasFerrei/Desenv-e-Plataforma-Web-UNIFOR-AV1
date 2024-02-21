@@ -1,4 +1,4 @@
-# Desenv-e-Plataforma-Web-UNIFOR - AV1
+# Ambiente de Desenv Web - AV1 (UNIFOR) 
 
 Este repositório contém o código e os recursos relacionados ao desenvolvimento de uma Plataforma Web de Cursos, referenta à Atividade 1 da disciplina Desev e Plataformas Web.
 
