@@ -14,14 +14,12 @@
 
 .duvida-pergunta-texto:hover {
     color: rgb(98, 98, 204);
-    font-size: 1.8rem;
 }
 
 .duvida-resposta {
     display: none;
     color: white;
     transition: color 0.3s; /* Adiciona uma transição suave de 0.3 segundos para a mudança de cor */
-    font-size: 1.2rem;
 
 }
 

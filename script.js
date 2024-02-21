@@ -65,35 +65,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
-
-// Função para ocultar ou mostrar o header
-let lastScrollTop = 0;
-  const header = document.getElementById('header');
-
-  window.addEventListener('scroll', () => {
-      let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-      if (scrollTop > lastScrollTop) {
-          // Scrolling down
-          header.style.top = "-100px"; // Define a posição do header para fora da tela
-      } else {
-          // Scrolling up
-          header.style.top = "0"; // Mostra o header novamente
-      }
-
-      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // Garante que scrollTop nunca seja negativo
-  });
-
-  // Função para ocultar ou mostrar o header quando o mouse se mover
-  let timer;
-  document.addEventListener('mousemove', () => {
-      clearTimeout(timer);
-      header.style.top = "0"; // Mostra o header
-      timer = setTimeout(() => {
-          header.style.top = "-100px"; // Oculta o header após 3 segundos de inatividade do mouse
-      }, 3000);
-});
-
-
-
