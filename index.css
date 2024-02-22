@@ -355,7 +355,7 @@ footer p:hover {
 }
 
 .playervideo .video h2 {
-    margin-left: -10px; /* Move um pouco para a esquerda */
+    margin-left: -10px; /* Reduz o nível da margem à esquerda em 10px */
 }
 
 .playervideo .video p {
