@@ -7,9 +7,9 @@ section {
 
 .title-review {
     text-align: center;
-    font-size: 6rem;
-    margin-bottom: -6rem;
-    margin-top: -7rem;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
 }
 
 .box-comment-review {
@@ -38,4 +38,18 @@ section {
 
 h2{
     color: white;
+}
+
+.text-comment-review {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.text-comment-review h4 {
+    margin-top: 0.3rem;
+}
+
+.text-comment-review p {
+    margin-top: -0.5rem;
 }
