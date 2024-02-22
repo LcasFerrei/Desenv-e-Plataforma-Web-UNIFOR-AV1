@@ -320,11 +320,16 @@ footer p:hover {
     color: lightcyan;
     font-size: 1.3rem;
     margin: 1.5rem;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 3rem;
     width: 40%;
     height: 80%;
-    margin-left: 24.5rem;
+    margin-left: 5.2rem;
+    width: 80%;
+    height: 50%;
+    background-color: rgba(61, 61, 147, 0.55);
+    border-radius: 1rem;
 }
 
 .beneficios img {
