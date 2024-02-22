@@ -158,6 +158,12 @@ header {
     color: white;
 }
 
+.header-icons {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.8rem;
+  }
+
 #menu{
     font-size: 35px;
     color: black;

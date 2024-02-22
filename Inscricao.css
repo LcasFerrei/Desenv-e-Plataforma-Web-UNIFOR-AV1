@@ -73,15 +73,16 @@ button:hover {
 
 header {
     position: fixed; /* Torna o header fixo */
-    width: 80%; /* Define a largura como 100% */
+    width: 100%; /* Define a largura como 100% */
     top: 0; /* Mantém o header fixo no topo */
     z-index: 1000; /* Define a ordem de empilhamento */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3% 8%; /* Ajusta o preenchimento */
+    /* padding: 3% 8%; Ajusta o preenchimento */
     margin-bottom: 20px;
     padding-bottom: 20px;
+    margin-left: -0.5rem;
     background-color: rgb(98, 98, 204); /* Adiciona cor de fundo */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
 }
@@ -122,6 +123,12 @@ header {
 .navegação a:hover{
     color: white;
 }
+
+.header-icons {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.8rem;
+  }
 
 #menu{
     font-size: 35px;
