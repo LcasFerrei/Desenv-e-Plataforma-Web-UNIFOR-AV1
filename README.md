@@ -10,7 +10,7 @@ Dado um determinado cenário foi solicitada a construção de uma página web si
 - Desenvolver uma plataforma colaborativa que permita que um estudante ou profissional possa assistir a vídeos específicos voltados para o ensino do desenvolvimento web, algo similar ao Udemy ou Alura, mas sem fins lucrativos.
   
 `Parte II`
-- Além de desenvolver a plataforma, a equipe também irá gravar vídeos explicativos para alimentá-la com um primeiro curso e ela poderá ser posteriormente alimentada por cursos de outras pessoas que queiram contribuir.
+- Além de desenvolver a plataforma, a equipe também irá gravar vídeos explicativos para alimentá-la com um primeiro curso e ela poderá ser posteriormente alimentada por cursos de outras pessoas que queiram contribuir, assim espandindo os conteúdos.
   
 `Parte III` 
 - Criar três páginas estáticas usando as tags do HTML que você achar necessário.
