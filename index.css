@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 html{
-    background: linear-gradient(rgb(98, 98, 204), black)
+    /*background: linear-gradient(rgb(98, 98, 204), black)*/
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 
 .footer-content{
@@ -99,6 +103,7 @@ li:last-child {
 /* teste rodape */
 
 
+
 header {
     position: fixed; /*Torna o header fixo */
     width: 100%; /* Define a largura como 100% */
@@ -111,7 +116,8 @@ header {
     margin-bottom: 20px;
     padding-bottom: 20px;
     margin-left: -0.5rem;
-    background-color: rgb(98, 98, 204); /* Adiciona cor de fundo */
+    /*background-color: rgb(98, 98, 204); /* Adiciona cor de fundo */
+    background-color: #fff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
 }
 
@@ -131,7 +137,7 @@ header {
 
 .inicial:hover,
 .inicial:hover i {
-    color: white;
+    color: rgb(98, 98, 204);
 }
 
 
@@ -149,7 +155,7 @@ header {
 }
 
 .navegação a:hover{
-    color: white;
+    color: rgb(98, 98, 204);
 }
 
 .header-icons {
@@ -175,7 +181,7 @@ header {
 
 .header-icons i:hover{
     transform: translateY(-5px);
-    color: white
+    color: rgb(98, 98, 204)
 }
 
 body {
@@ -183,26 +189,33 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 80px; /* Adiciona margem superior ao título */
-    font-family: 'Protest Guerrilla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* Adiciona uma transição suave para a mudança de cor */
     transition: color 0.3s ease;
 }
 
 h1:hover {
-    color: black; /* Altera a cor para preto ao passar o mouse */
+    color: rgb(98, 98, 204); /* Altera a cor para preto ao passar o mouse */
 }
 
 .sub {
     font-size: 25px; /* Tamanho da fonte */
-    color: white;
+    color: black;
     text-align: center; /* Alinhamento do texto */
     margin-top: 20px; /* Margem superior */
 }
 
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
 
+p:hover{
+    color: rgb(98, 98, 204);
+}
 
 footer p {
     color: white; /* Define a cor do texto como branco */

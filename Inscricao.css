@@ -71,8 +71,9 @@ button:hover {
 /* teste rodape */
 
 
+
 header {
-    position: fixed; /* Torna o header fixo */
+    position: fixed; /*Torna o header fixo */
     width: 100%; /* Define a largura como 100% */
     top: 0; /* Mantém o header fixo no topo */
     z-index: 1000; /* Define a ordem de empilhamento */
@@ -83,7 +84,8 @@ header {
     margin-bottom: 20px;
     padding-bottom: 20px;
     margin-left: -0.5rem;
-    background-color: rgb(98, 98, 204); /* Adiciona cor de fundo */
+    /*background-color: rgb(98, 98, 204); /* Adiciona cor de fundo */
+    background-color: #fff;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
 }
 
@@ -103,13 +105,13 @@ header {
 
 .inicial:hover,
 .inicial:hover i {
-    color: white;
+    color: rgb(98, 98, 204);
 }
-
 
 
 .navegação{
     display: flex;
+
 }
 
 .navegação a{
@@ -121,7 +123,7 @@ header {
 }
 
 .navegação a:hover{
-    color: white;
+    color: rgb(98, 98, 204);
 }
 
 .header-icons {
@@ -147,7 +149,7 @@ header {
 
 .header-icons i:hover{
     transform: translateY(-5px);
-    color: white
+    color: rgb(98, 98, 204)
 }
 
 body {
